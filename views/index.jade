@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        title Jade Page
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        script(src="/javascripts/main.js") 
+
+    body
+        #centre
+            #MainTitle 🍕 FoodAPI
+            #input
+                <em>try it out! </em>
+                input(type="text", id="search", size="30", value="", placeholder="Enter food to search")
+                input(type="button", value="Get result", id="submit", onclick="getInputValue();")

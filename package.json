@@ -1,0 +1,19 @@
+{
+  "name": "recipe-site",
+  "version": "1.0.0",
+  "description": "simple recipe projecet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jade": "^1.11.0",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.18"
+  }
+}
