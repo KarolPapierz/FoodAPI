@@ -18,8 +18,6 @@ const main = require('./routes/index');
 app.get('/', main);
 app.use(express.static(path.join(__dirname, 'public')));
 
-const port = 3000;
-
 
 
 //api management
@@ -31,4 +29,4 @@ db.once('open', () => console.log('Connected to Database'))
 
 
 //listen on port
-app.listen(port, () => console.log('Server Started'))
+app.listen(process.env.PORT || 3000, () => console.log('Server Started'))
